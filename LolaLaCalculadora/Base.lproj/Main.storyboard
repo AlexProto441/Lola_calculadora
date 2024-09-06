@@ -30,7 +30,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="QNE-vV-80g">
                                         <rect key="frame" x="0.0" y="0.0" width="43.666666666666664" height="233.33333333333334"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePQ-9e-LYY">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="btn_7" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ePQ-9e-LYY">
                                                 <rect key="frame" x="0.0" y="0.0" width="43.666666666666664" height="34.333333333333336"/>
                                                 <color key="tintColor" red="1" green="0.52083422300000004" blue="0.087588558829999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
@@ -39,7 +39,7 @@
                                                     <action selector="btn_Numeros:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gjY-Gs-02b"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zaf-WW-AgP">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="btn_4" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zaf-WW-AgP">
                                                 <rect key="frame" x="0.0" y="66.333333333333314" width="43.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="4"/>
@@ -47,7 +47,7 @@
                                                     <action selector="btn_Numeros:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rwi-Fl-cq0"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQn-ES-rHc">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="btn_1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kQn-ES-rHc">
                                                 <rect key="frame" x="0.0" y="132.66666666666669" width="43.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="1"/>
@@ -55,7 +55,7 @@
                                                     <action selector="btn_Numeros:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fiQ-vL-RLa"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gva-Fc-gtj">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="btn_igual" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gva-Fc-gtj">
                                                 <rect key="frame" x="0.0" y="199" width="43.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="="/>
@@ -69,7 +69,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="whh-a5-wDt">
                                         <rect key="frame" x="103.66666666666666" y="0.0" width="43.666666666666657" height="233.33333333333334"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hP7-XL-Xoq">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="btn_8" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hP7-XL-Xoq">
                                                 <rect key="frame" x="0.0" y="0.0" width="43.666666666666664" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="8"/>
@@ -77,7 +77,7 @@
                                                     <action selector="btn_Numeros:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lmY-Am-KuB"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgi-RJ-z3g">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="btn_5" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mgi-RJ-z3g">
                                                 <rect key="frame" x="0.0" y="66.333333333333314" width="43.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="5"/>
@@ -85,7 +85,7 @@
                                                     <action selector="btn_Numeros:" destination="BYZ-38-t0r" eventType="touchUpInside" id="erC-oS-ZZ6"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bne-M0-IP0">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="btn_2" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bne-M0-IP0">
                                                 <rect key="frame" x="0.0" y="132.66666666666669" width="43.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="2"/>
@@ -93,7 +93,7 @@
                                                     <action selector="btn_Numeros:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zb4-sX-OtW"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6J1-or-5DC">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="btn_0" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6J1-or-5DC">
                                                 <rect key="frame" x="0.0" y="199" width="43.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="0"/>
@@ -107,7 +107,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="sqE-E9-FxB">
                                         <rect key="frame" x="207.33333333333331" y="0.0" width="43.666666666666657" height="233.33333333333334"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3w-Oc-Kj4">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="btn_9" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3w-Oc-Kj4">
                                                 <rect key="frame" x="0.0" y="0.0" width="43.666666666666664" height="34.333333333333336"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="9"/>
@@ -115,7 +115,7 @@
                                                     <action selector="btn_Numeros:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XAa-2u-lpa"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYR-YR-WOp">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="btn_6" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYR-YR-WOp">
                                                 <rect key="frame" x="0.0" y="66.333333333333314" width="43.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="6"/>
@@ -123,7 +123,7 @@
                                                     <action selector="btn_Numeros:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vFM-7B-zef"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCi-Ig-AFw">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="btn_3" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RCi-Ig-AFw">
                                                 <rect key="frame" x="0.0" y="132.66666666666669" width="43.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="3"/>
@@ -131,7 +131,7 @@
                                                     <action selector="btn_Numeros:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H9H-67-YAd"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHW-EV-xco">
+                                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="btn_ope" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PHW-EV-xco">
                                                 <rect key="frame" x="0.0" y="199" width="43.666666666666664" height="34.333333333333343"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="op"/>
@@ -161,6 +161,7 @@
                     </view>
                     <connections>
                         <outlet property="btn_Cambia" destination="gva-Fc-gtj" id="86m-do-8qR"/>
+                        <outlet property="btn_ope" destination="PHW-EV-xco" id="FLu-Fq-9jx"/>
                         <outlet property="txt_Cambiar" destination="Wgh-J4-eQh" id="4Gj-kh-WBt"/>
                     </connections>
                 </viewController>
