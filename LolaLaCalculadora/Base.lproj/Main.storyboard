@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YeP-PG-tdK">
-                                <rect key="frame" x="175" y="167" width="42" height="21"/>
+                                <rect key="frame" x="71" y="167" width="251" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -137,6 +137,7 @@
                                                 <buttonConfiguration key="configuration" style="filled" title="op"/>
                                                 <connections>
                                                     <action selector="btn_Operacion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="37k-By-xtI"/>
+                                                    <action selector="btn_escoger_operacion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Lq-gZ-yO2"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -145,7 +146,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wgh-J4-eQh">
-                                <rect key="frame" x="150" y="240" width="0.0" height="0.0"/>
+                                <rect key="frame" x="150" y="237" width="0.0" height="3"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -160,9 +161,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="StackView" destination="pTB-Fj-jq1" id="NzH-IU-vul"/>
                         <outlet property="btn_Cambia" destination="gva-Fc-gtj" id="86m-do-8qR"/>
                         <outlet property="btn_ope" destination="PHW-EV-xco" id="FLu-Fq-9jx"/>
-                        <outlet property="txt_Cambiar" destination="Wgh-J4-eQh" id="4Gj-kh-WBt"/>
+                        <outlet property="txt_Cambiar" destination="YeP-PG-tdK" id="Jb0-La-H5o"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
