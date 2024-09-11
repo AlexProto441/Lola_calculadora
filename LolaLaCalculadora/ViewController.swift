@@ -38,8 +38,12 @@ class ViewController: UIViewController {
     @IBAction func btn_Numeros(_ sender: UIButton) {
         if(estado_actual == estados_de_la_calculadora.seleccionar_numeros){
             
-            let txt_añadir = botones_Interfaz[(sender.restorationIdentifier ?? btn_ope.restorationIdentifier) ?? "btn"]?.numero
-            txt_Cambiar.text = "\(txt_Cambiar.text ?? "")\(txt_añadir!)"
+            /*let txt_añadir = botones_Interfaz[(sender.restorationIdentifier ?? btn_ope.restorationIdentifier) ?? "btn"]?.numero
+            */
+            if let _mensajero_id = sender.restorationIdentifier{
+                let texto_cache = botones_Interfaz[_mensajero_id]?.numero
+                txt_Cambiar.text = "\(txt_Cambiar.text ?? "")\(texto_cache!)"
+            
             }
         else if (estado_actual == estados_de_la_calculadora.escoger_operacion){
             if let _mensajero: UIButton? = sender{
