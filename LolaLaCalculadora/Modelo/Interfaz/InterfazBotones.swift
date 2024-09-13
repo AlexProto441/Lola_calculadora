@@ -64,8 +64,11 @@ struct IUBotonCalculadora {
                 numero: Character("9"),
                 operacion: "/"
             )
-        
-        
+            botones_Interfaz["btn_igual"] = IUBotonCalculadora(
+                numero: Character("="),
+                operacion: ""
+            )
+    
         return botones_Interfaz
     }
 }
